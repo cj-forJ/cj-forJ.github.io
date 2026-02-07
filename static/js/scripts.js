@@ -55,6 +55,12 @@ window.addEventListener('DOMContentLoaded', event => {
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
+            if (name === 'publications') {
+                    document.querySelectorAll('#publications-md a').forEach(link => {
+                        link.target = "_blank";
+                        link.rel = "noopener noreferrer";
+                    });
+                }
             }).then(() => {
                 // MathJax
                 MathJax.typeset();
@@ -63,3 +69,4 @@ window.addEventListener('DOMContentLoaded', event => {
     })
 
 }); 
+
