@@ -20,6 +20,21 @@
     color: #FCD186  !important; 
 }
 
+#mainNav .nav-link.active {
+  color: #FCD186 !important;
+}
+
+#mainNav #page-top-title{
+  font-size: 1.6rem !important;
+  font-family: "Cormorant", Georgia, serif !important;
+  font-weight: 700 !important;
+  color: white !important;
+  
+  display: inline-block;
+  min-width: 6ch;
+  line-height: 1.2;
+}
+
 .bg-bottom {
     background-color: var(--h-title-color);
 }
