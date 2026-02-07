@@ -9,7 +9,7 @@ My name is Chujun Zhang. I am a PhD student at the Hall Lab at the University of
 Email: cxz455@student.bham.ac.uk
 
 #### Education
-PhD, Bioinformatics, University of Birmingham, 2025-Present\
+PhD student, Bioinformatics, University of Birmingham, 2025-Present\
 MSc, Bioinformatics, Northwest A&F University, 2021—2024\
 BSc, Biotechnology, Northwest A&F University, 2017—2021
 
